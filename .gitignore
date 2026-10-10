@@ -1,0 +1,111 @@
+.vercel
+venv/
+venvv/
+model_cache/
+.env
+# Environment and secrets
+
+test_training.py
+test_api.py
+run_server.py
+run_local.py
+
+# Additional protection for proprietary files
+*_full.py
+*_complete.py
+*_production.py
+*_private.py
+config_private.py
+config_production.py
+secrets/
+full_implementation/
+production_configs/
+optimized_models/
+
+# Backup your real implementation with these names locally
+# Keep the originals safe and use public versions for GitHub
+
+# Advanced features (keep locally)
+advanced_rag/
+custom_embeddings/
+optimization_algorithms/
+production_monitoring/
+.env
+.env.*
+!.env.example
+service_account.json
+credentials.*
+token.*
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.der
+*.jks
+*.keystore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+hackrx_execution.log
+local_deployment.log
+logs/
+
+# Databases / data
+hackrx_db.db
+*.db
+*.sqlite*
+*.db-journal
+
+# Caches / models
+.cache/
+pip-wheel-metadata/
+pip-cache/
+huggingface/
+transformers_cache/
+model_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/outputs
+diagrams/*.png
+
+# Files containing API keys and sensitive configuration
+config.py
+services/qa_engine.py
+services/qa_engine_enhanced.py
+
+# Keep only public/demo versions
+# Use config_public.py, qa_engine_public.py, qa_engine_enhanced_public.py instead
+
+# Any file with 'private' or 'production' in the name
+*private*
+*production*
+*_prod.py
+*_live.py
+
+# Configuration files with real API keys
+config_real.py
+config_live.py
+settings_production.py
+
+# Service files with real implementations
+services/*_real.py
+services/*_live.py
+services/*_production.py
